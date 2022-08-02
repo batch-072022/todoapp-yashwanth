@@ -10,6 +10,9 @@ import { AddtaskComponent } from './addtask/addtask.component';
 import { EdittaskComponent } from './edittask/edittask.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { LoginUsersComponent } from './login-users/login-users.component';
+import { ViewUserComponent } from './view-user/view-user.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { HeaderComponent } from './header/header.component';
     AddtaskComponent,
     EdittaskComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    LoginUsersComponent,
+    ViewUserComponent,
   ],
   imports: [
     BrowserModule,
